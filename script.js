@@ -69,5 +69,7 @@ function reset() {
 
 // Event listeners for keyboard input and the reset
 testArea.addEventListener("keypress", start, false);
+testArea.addEventListener("keyup", start, false);
+testArea.addEventListener("keydown", start, false);
 testArea.addEventListener("keyup", spellCheck, false);
 resetButton.addEventListener("click", reset, false);
